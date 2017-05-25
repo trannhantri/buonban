@@ -36,7 +36,7 @@
 
     Private Sub AddToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddToolStripMenuItem.Click
         Dim dialog = New AddItemDialog()
-        dialog.Text = "Tha thu Add"
+        dialog.Text = "Thêm Hàng"
         dialog.ShowDialog()
         If dialog.DialogResult = DialogResult.OK Then
             datagridview.Rows.Add(New String() {datagridview.Rows.Count, dialog.txt_ten.Text, dialog.txt_soluong.Text, dialog.txt_giaban.Text})
@@ -76,7 +76,7 @@
         index = datagridview.CurrentRow.Index
         If index > -1 Then
             Dim dialog = New AddItemDialog()
-            dialog.Text = "Tha thu Modifire"
+            dialog.Text = "Chỉnh Sửa"
             Dim tmp_id As Integer
             tmp_id = datagridview.Rows(index).Cells(0).Value
             dialog.txt_ten.Text = datagridview.Rows(index).Cells(1).Value

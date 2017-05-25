@@ -32,3 +32,7 @@ E:\BanHang\BanHang\obj\Debug\BanHang.AddItemDialog.resources
 E:\BanHang\BanHang\obj\Debug\BanHang.FormQuanly.resources
 E:\BanHang\BanHang\obj\Debug\BanHang.Resources.resources
 E:\BanHang\BanHang\obj\Debug\BanHang.vbproj.GenerateResource.Cache
+C:\Users\Irt\Desktop\buonban\BanHang\bin\Debug\BanHang.exe.config
+C:\Users\Irt\Desktop\buonban\BanHang\obj\Debug\BanHang.exe
+C:\Users\Irt\Desktop\buonban\BanHang\obj\Debug\BanHang.xml
+C:\Users\Irt\Desktop\buonban\BanHang\obj\Debug\BanHang.pdb
